@@ -1,2 +1,2 @@
 # Dictionary
-A simple dictionary app.
+A simple dictionary app for users.
