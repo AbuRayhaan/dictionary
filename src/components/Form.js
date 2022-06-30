@@ -1,11 +1,14 @@
-function Form() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p>Dictionary Project</p>
-        </header>
-      </div>
-    );
+import '../scss/Form.css';
+
+const Form = () => {
+  return (
+    <section className="form-section">
+      <form>
+        <input type="text" placeholder="Search Here" />
+        <button type="submit">SEARCH</button>
+      </form>
+    </section>
+  );
 }
 
 export default Form;
